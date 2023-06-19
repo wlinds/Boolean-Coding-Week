@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+h1 {
+    font-size: 48px;
+    color: #e9f45b;
+  }
+  
+h2 {
+    font-size: 40px;
+  }
+  
+p {
+    margin-bottom: 24px;
+  }
+  
+a {
+    color: #c917c0
+  }
+  
+a:hover {
+    color: #ffb703
+  }
+  
+header {
+    background-color: #1212B2;
+    padding: 24px;
+    text-align: center;
+  }
+  
+main {
+    /* `main` element does not need any styles */
+  }
+  
+.hero {
+    height: 320px;
+    background-image: url("./images/cover-bg.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 48px;
+    color: white;
+  }
+  
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+.content {
+    padding: 24px;
+  }
+  
+.content > * {
+    margin-bottom: 16px;
+  }
+  
+.content img {
+    width: 100%;
+  }
+  
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* fr = fraction */
+    column-gap: 5px;
+  }
+  /*
+    Guide on using CSS Grid's repeat/auto-fit/minmax properties:
+    https://codesandbox.io/s/css-grid-repeat-autofit-guide-vqz07p?file=/index.html
+  */
+  
+footer {
+    background-color: #1212B2;
+    padding: 32px;
+  }
+  
+/* "descendant combinator". */
+footer p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: right;
+  }
