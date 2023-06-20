@@ -1,0 +1,68 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Quote from a Bot</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+
+<body>
+
+
+
+    <header>
+        <h1>Quote from a bot</h1>
+        <p>Select a character to see what's on their mind</p>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="characters">
+
+                <!-- Character One: Blaise Pascal-->
+                <div class="character" data-character="Pascal">
+                    <img src="https://media.sciencephoto.com/image/h4160244/800wm">
+                </div>
+
+                <!-- Character Two: Ludwig Wittgenstein-->
+                <div class="character" data-character="Wittgenstein">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ludwig_Wittgenstein_1929.jpg/220px-Ludwig_Wittgenstein_1929.jpg">
+                </div>
+
+                <!-- Character Three: Diogenes-->
+                <div class="character" data-character="Diogenes">
+                    <img src="https://i.pinimg.com/736x/6b/00/99/6b0099c78df261aa94aae13d20876a71.jpg">
+                </div>                
+
+            </div>
+        </div>
+    </main>
+
+    <div class="loading hidden">
+        <img src="./images/loader.gif">
+    </div>
+
+    <div class="modal">
+        <div class="modal-box">
+            <div class="modal-close">
+                X
+            </div>
+
+            <div class="modal-content">
+                <h2>Blaise Pascal</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+                <code>Lorem ipsum dolor two</code>
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
