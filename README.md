@@ -9,3 +9,6 @@ Day 2: <a href="/Code-Along/Day_2-OpenAI-API/">Philosopher bot</a>
 - ChatGPT API
 
 Day 3: Boolean Open Day
+
+Day 4: <a href="/Code-Along/Day_4-Emoji-Chef/">Emoji chef</a>
+- If-statements, more functions & API:s
